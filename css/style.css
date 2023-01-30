@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+html{
+    font-size: 16px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    border: none;
+}
+
+
+.header_iconos{
+    width: 10%;
+}
+
+
+.hero-img{
+    background-image: url(../assets/img/fon_ver_snap.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:70%;
+    object-fit: contain;
+
+}
+
+
+
+header.navbar.navbar-expand-lg{
+    background: rgba(36, 35, 35, 0.1);
+    padding: 0;
+}
+
+
+/* color del titulo del header */
+.font-header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: rgb(250, 249, 196);
+    padding: 0;
+}
+
+/* color de las listas del header */
+.navbar .container-fluid #navbarNav ul li a{
+    /* color: rgb(122, 119, 11); */
+    color: rgb(250, 249, 196);
+}
+
+.navbar .container #navbarNav ul li a:hover{
+    color: rgb(83, 83, 83);
+}
+
+.font-header:hover{
+    color: rgb(235, 235, 235) ;
+}
+
+.navbar-nav{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+.hero-text{
+    width: 100%;
+    color: rgb(250, 249, 196);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero-text h1{
+    width: 290px;
+    font-size: 3.5rem;
+    text-align:center;
+    font-family: 'Bad Script', cursive;
+    font-weight:bold;
+    margin-top: 140px;
+    background: rgba(134, 134, 134, 0.1);
+    border-radius: 20px;
+    padding-top: 10px;
+    
+}
+
+
+
+
+/* .tarjeta_servicios{
+
+    width: 300px;
+    height: 500px;
+    margin:10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.tarjeta_servicios__img{
+    height: 300px;
+    object-fit: cover;
+} */
+
+
+.seccion_servicios{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206, 206, 206, 0.158) 100%);
+    
+    /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(184, 156, 63, 0.158) 100%); */
+}
+
+.seccion_mapa{
+    background-color: rgba(206, 206, 206, 0.158);
+    /* background-color: rgba(184, 156, 63, 0.158); */
+}
+
+
+
+.card{
+    min-width: 310px;
+    min-height: 220px;
+
+    max-width: 520px;
+    max-height: 420px;
+
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.card__text{
+    width: 70%;
+    border-radius: 0 20px 20px 0;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(245, 217, 182) 100%);
+    margin-left: 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.card__text p{
+    width: auto;
+}
+
+
+.card__img{
+    width: 30%;
+    border-radius: 20px 0 0 20px;
+}
+
+.cejas{
+    object-position: right;
+}
+
+
+@media  (max-width: 500px){
+
+    .card__text{width: 60%;}
+    .card__img{width: 40%;}
+
+    .cejas{object-position: 90%;}
+    .manos{object-position: 90%;}
+    .pies{object-position: 90%;}
+
+}
+
+.card__img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20px 0 0 20px;
+}
+
+
+
+.contenedor_tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.titulo_seccion_tarjetas{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family: 'Bad Script', cursive;
+    font-size: 3.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tar{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+
+.tar_texto{
+    width: 50%;
+    /* background-color: rgba(205, 241, 188, 0.438); */
+    background-color: rgba(245, 217, 182, 0.342);
+    text-align: center;
+    border-radius: 20px 0 0 20px;
+}
+
+.tar_texto h2{
+    font-family: 'Bad Script', cursive;
+    font-size: 2.5rem;
+
+}
+
+.tar_texto p{
+    font-family: 'Bad Script', cursive;
+    font-size: 1.2rem;
+}
+
+.tar_iframe{
+    width: 50%;
+}
+
+.tar_iframe iframe{
+    width: 100%;
+    height: 450px;
+    border-radius: 0 20px 20px 0;
+}
+
+@media (max-width:500px){
+    .tar{flex-direction: column;}
+    .tar_texto{width: 100%;
+    text-align: center;
+    border-radius: 20px 20px 0 0;}
+    .tar_iframe{width: 100%;}
+    .tar_iframe iframe{border-radius: 0 0 20px 20px;}
+}
+
+.icono{
+    font-size: 1.5rem;
+    color:black;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(15, 15, 15, 0.815);
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+footer h3{
+    color: azure;
+    font-family: 'Dancing Script', cursive;
+    margin: 10px;
+}
+
+.linea{
+    width: 300px;
+    height: 35px;
+    border-bottom: 1px solid white;
+    
+}
+
+footer i{
+    font-size: 1.5rem;
+}
